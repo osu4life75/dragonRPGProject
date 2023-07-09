@@ -42,7 +42,7 @@ const locations = [
   {
     name: "town square",
       "button text": ["Go to store", "Go to Cave","Fight dragon"],
-      "button funtions": [goStore, goCave, fightDragon],
+      "button functions": [goStore, goCave, fightDragon],
       text:"You are in town square. You see a sign that says\"Store.\""
       
     
