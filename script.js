@@ -68,14 +68,14 @@ button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
 
-function update(location){
-  button1.innerText = location["button text"][0];
-  button2.innerText = location["button text"][1];
-  button3.innerText =location["button text"][2];
-  button1.onclick = location["button functions"][0];
-  button2.onclick =location["button functions"][1];
-  button3.onclick = location["button functions"][2];
-  text.innerText = location.text;
+function update(x){
+  button1.innerText = x["button text"][0];
+  button2.innerText = x["button text"][1];
+  button3.innerText =x["button text"][2];
+  button1.onclick = x["button functions"][0];
+  button2.onclick =x["button functions"][1];
+  button3.onclick = x["button functions"][2];
+  text.innerText = x.text;
   
   
 }
@@ -121,13 +121,15 @@ function buyWeapon(){
 
     } else {
         text.innerText = "You do not have enough gold to buy a weapon.";
-    } else {
+    }
+  }
+  else {
         text.innerText = "You already have the most powerful weapon!";
         button2.innerText = "Sell weapon for 15 gold";
         button2.onclick = sellWeapon;
 
     }
- }
+ 
 }
 
 function sellWeapon() {
