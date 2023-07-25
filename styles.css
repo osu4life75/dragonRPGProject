@@ -1,5 +1,7 @@
 body {
-    background-color: darkblue;
+  background-image: url('https://t3.ftcdn.net/jpg/05/54/24/36/360_F_554243606_iZ0fdePp7AX3M732Lmv0qhGA2N73leBY.jpg');
+  background-size: cover; /* or "contain" to fit the container without cropping */
+ 
   }
   
   #text {
