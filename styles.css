@@ -1,8 +1,9 @@
 body {
-  background-image: url('https://cdn.pixabay.com/photo/2014/01/05/01/19/dragon-238931_1280.jpg');
+  background-image: url('');
   background-size: cover; /* or "contain" to fit the container without cropping */
- 
   }
+
+ 
   
   #text {
     background-color: black;
